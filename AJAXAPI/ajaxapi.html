@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Découpage administratif regions</title>
+
+    <link rel="stylesheet" href="ajaxapi.css" />
+  </head>
+  <body>
+    <h1>Découpage administratif regional</h1>
+
+    <label for="selectRegion">Selectionnez une region :</label>
+    <select name="selectRegion" id="selectRegion"></select>
+
+    <label for="selectDepartement">Selectionnez un departement :</label>
+    <select name="selectDepartement" id="selectDepartement"></select>
+
+    <button id="btnCommune">Afficher les communes</button>
+
+    <h2>Liste des communes</h2>
+    <ul id="communeList"></ul>
+    <script src="./ajaxapi.js"></script>
+  </body>
+</html>
