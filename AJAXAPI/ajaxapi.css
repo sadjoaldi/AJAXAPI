@@ -1,0 +1,51 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+:root {
+  --primary-color: #2c3e50;
+  --secondary-color: #f39c12;
+  --tertiary-color: #e74c3c;
+}
+
+.regions {
+  text-align: center;
+}
+
+.regionFilter {
+  margin: 20px 0;
+}
+
+label {
+  font-size: 20px;
+  margin-right: 10px;
+}
+select {
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+button {
+  padding: 10px 20px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  background-color: #f8f8f8;
+  cursor: pointer;
+}
+
+.communes {
+  margin: 5rem 0;
+  background: var(--secondary-color);
+}
+
+.communeList {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+}
