@@ -48,7 +48,7 @@ async function showCommunes() {
   communesList.innerHTML = "";
   communes.forEach((commune) => {
     const li = document.createElement("li");
-    li.textContent = commune.nom;
+    li.textContent = `${commune.nom} (${commune.population} habitants )`;
     communesList.appendChild(li);
   });
 }
